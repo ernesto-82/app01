@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Ejercicios IAW</a>
+            <a class="nav-link text-white" href="calculadora.html">Calculadora</a>
+            <a class="nav-link text-white" href="mayoriaEdad.html">Edad</a>
+            <a class="nav-link text-white" href="numeros.html">Números</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>1. Calculadora</h1>
+
+        <form action="../PHP/Calculadora/Calculadora.php" method="post">
+            <p>
+                <label>Primer número:</label>
+                <input type="number" name="numero1" required>
+            </p>
+
+            <p>
+                <label>Segundo número:</label>
+                <input type="number" name="numero2" required>
+            </p>
+
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+    </div>
+
+</body>
+</html>
